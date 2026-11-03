@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f2eb;   /* bege suave */
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header, main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, p, li {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #2fbd1c;            
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.bloco-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+ul, ol {
+  padding: 0;
+  list-style-position: inside;
+}
+
+ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+
+#filmes ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#filmes li {
+  flex: 1 1 calc(50% - 20px);  
+  min-width: 200px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#filmes li span {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#filmes img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;          
+  object-position: center top;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+.lista-detalhes {
+  max-width: 650px;
+  margin: 20px auto 0 auto;
+}
+
+.lista-detalhes li {
+  text-align: left;
+  margin-bottom: 12px;
+  list-style-type: square;
+  color: #444444;
+}
+
+.creditos {
+  font-size: 18px;
+  color: #111;
+  margin: 0;
+}
