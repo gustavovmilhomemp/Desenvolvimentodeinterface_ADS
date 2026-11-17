@@ -1,6 +1,6 @@
 # Desenvolvimento de Interface — ADS
 
-**Estudante:** Seu nome
+**Estudante:** Gustavo Vinícius de Pádua Milhomem
 
 **Curso:** Análise e Desenvolvimento de Sistemas
 
